@@ -1,0 +1,86 @@
+{
+  "name": "innovator-island-frontend",
+  "version": "1.0.0",
+  "description": "Frontend app for the Innovator Island workshop.",
+  "author": "James Beswick <jbeswick@amazon.com>, @jbesw",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@aws-sdk/credential-providers": "^3.423.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/vue-fontawesome": "^2.0.2",
+    "aws-iot-device-sdk-v2": "^1.16.0",
+    "axios": "^0.22.0",
+    "bootstrap": "^5.1.1",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.18.1",
+    "font-awesome": "^4.7.0",
+    "fontawesome": "^5.6.3",
+    "leaflet": "^1.7.1",
+    "node-polyfill-webpack-plugin": "^2.0.1",
+    "sweetalert2": "^11.1.7",
+    "util": "^0.12.5",
+    "v-tooltip": "^3.0.0-alpha.21",
+    "vue": "^2.6.14",
+    "vue-i18n": "^8.26.5",
+    "vue-popperjs": "^2.3.0",
+    "vue-router": "^3.5.2",
+    "vue-silentbox": "^2.4.5",
+    "vue2-leaflet": "^2.7.1",
+    "vueperslides": "^2.15.2",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "assert": "^2.1.0",
+    "babel-eslint": "^10.1.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^7.18.0",
+    "https-browserify": "^1.0.0",
+    "install": "^0.13.0",
+    "npm": "^10.2.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.3",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false,
+    "tls": false
+  }
+}
